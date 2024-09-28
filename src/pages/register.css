@@ -1,0 +1,28 @@
+.upload-pic-div{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+   
+}
+.formInput {
+    margin-bottom: 16px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  input[type="radio"]:checked + label {
+    font-weight: bold;
+  }
+  
+  .radioContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .radioLabel {
+    margin-left: 5px;
+    color: white;
+  }

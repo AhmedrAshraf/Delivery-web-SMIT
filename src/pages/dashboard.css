@@ -1,0 +1,123 @@
+.dashboard-header-wrapper {
+  display: flex;
+  height: 320px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 5px 18px #e9e8e8;
+  background-color: rgb(255, 255, 255);
+}
+.test {
+  color: "#282828" !important;
+  background-color: rgb(255, 255, 255);
+}
+.dashboard-header-image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  /* background-color: blue; */
+  border-radius: 20px 20px 20px 20px;
+  background-image: url(../assets/images/dashboardHome.png);
+}
+.card__header{
+  font-size: 1.2rem;
+}
+.dashboard-header-text {
+  width: 50%;
+  display: flex;
+  padding: 50px;
+  text-align: start;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.dashboard-image {
+  width: 100%;
+  height: 100%;
+  resize: contain;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.header-top {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+::selection {
+  background-color: #c3cfe2;
+}
+.text {
+  font-size: "bold";
+  text-transform: uppercase;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #01b5e7 0%, #2c2974 200%); */
+}
+
+#modal-box {
+  border: none;
+  border-radius: 20px;
+}
+
+.text-align-left-important {
+  text-align-last: left !important;
+}
+
+
+#fab {
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard-header-wrapper {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  .dashboard-header-image {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .dashboard-header-text {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .text {
+    font-size: 18px;
+    margin-bottom: -30px;
+  }
+  .fullWidthOnMobile {
+    width: 100% !important;
+  }
+  .col-6 {
+    padding: 3px !important;
+  }
+  /* .bx-palette{
+    position: fixed;
+    z-index: 10;
+    right: 0;
+  } */
+  #modal-box {
+    width: 90%;
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+  #fab {
+    top: 85vh !important;
+  }
+}

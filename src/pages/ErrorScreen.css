@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+#errorScreen {
+  position: relative;
+  height: 80vh;
+}
+#errorScreen .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.notfound {
+  max-width: 920px;
+  width: 100%;
+  line-height: 1.5;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.notfound .errorCode {
+  position: absolute;
+  height: 100px;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: -1;
+}
+.notfound .errorCode h1 {
+  font-family: "Maven Pro", sans-serif;
+  color: #ececec;
+  font-weight: 900;
+  font-size: 15vw;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.notfound h2 {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 46px;
+  color: #000;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+}
+.notfound p {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 5%;
+}
+.notfound a {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: "#282828";
+  display: inline-block;
+  padding: 16px 38px;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  font-weight: 600;
+  -webkit-transform: 0.2s all;
+  margin-top: 2%;
+}
+.notfound a:hover {
+  background-color: #fff;
+  border-color: #282828;
+  color: #282828;
+}

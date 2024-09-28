@@ -1,0 +1,24 @@
+.menu-bar {
+    display: none;
+  }
+  
+  .menu-bar .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu-bar .toggle-btn {
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .menu-bar .theme-btn {
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu-bar {
+        display: inline;
+}
+  }

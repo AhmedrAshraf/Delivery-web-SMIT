@@ -1,0 +1,244 @@
+#modal-popup {
+  width: 900px;
+  border: none;
+  display: flex;
+  border-radius: 15px;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#vendor-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#name-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#top-modal {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.blank {
+  width: 100%;
+  height: 100%;
+}
+.center {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blank-left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+#text {
+  font-size: smaller;
+  text-align: left;
+}
+
+#info-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+#info-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  align-self: flex-start;
+  /* margin-top: 5%; */
+  height: 100%;
+  /* background-color: rgb(255, 0, 0); */
+}
+#info-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(247, 213, 42);
+  border-right: 1px solid rgb(126, 126, 126);
+  border-left: 1px solid rgb(122, 122, 122); */
+}
+#info-right {
+  display: flex;
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid #000000; */
+  border-radius: 5px;
+}
+
+#services {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 50%;
+}
+
+.service-logo {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #30a9f471;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px 15px 0px;
+}
+.servicesRow {
+  width: 100%;
+  min-height: 250px;
+  overflow: scroll;
+  max-height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0px;
+  border-radius: 15px;
+  align-items: center;
+  border: 1px solid #000000;
+}
+.serviceIMG {
+  height: 75%;
+  width: 70%;
+}
+@media screen and (max-width: 768px) {
+  #vendor-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  #name-image {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #vendor-image {
+    width: 50px;
+    height: 50px;
+  }
+  #modal-popup {
+    width: 90%;
+    border: none;
+    display: flex;
+    border-radius: 15px;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  #info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+    width: 100%;
+  }
+  #info-center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-left: none;
+    border-right: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+  }
+  .servicesRow {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    padding: 15px 5px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #30a9f469;
+  }
+  .service-logo {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #30a9f471;
+  }
+  .serviceIMG {
+    height: 40px;
+    width: 40px;
+  }
+  .center {
+    width: 300%;
+    height: 300%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked
+  + .MuiSwitch-track,
+.css-1yjjitx-MuiSwitch-track {
+  background-color: #fff !important;
+  border: 1px solid #57d6e7;
+}
+.switch-container {
+  position: absolute;
+  left: 100px;
+}
+
+.deleteBut{
+  color: white !important;
+  background-color: tomato !important;
+}
+.verifiedBut{
+  border: 1px solid #4caf50 !important;
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+#modal-popup {
+  border: 1px solid red !important;
+  background-color: #f0f0f0 !important;
+}
+.css-mhc70k-MuiGrid-root{
+  flex-flow: nowrap !important;
+}
+.table-row ,th, td{
+  text-align: center !important;
+}
+.table-heading{
+background-color: #4caf50 !important;
+}

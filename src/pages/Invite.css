@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+  .inviteHeading {
+    text-align: center;
+    font-size: 1em !important;
+  }
+  .card {
+    padding: 10px;
+  }
+}
